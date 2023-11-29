@@ -1,0 +1,291 @@
+.dropbtn {
+    color:white;
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: 15px;
+    padding: 25px;
+   
+ }
+ #name1
+ {
+    width:350px;
+    height:30px;
+    margin-left: 850px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+ }
+ #name2
+ {
+    width:350px;
+    height:30px;
+    margin-left: 850px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+ }
+
+ .dropbtn:hover
+    {
+    background-color:black; 
+    color:white;
+ }
+
+ .dropdown {
+    position: relative;
+    display: inline-block;
+ }
+ .dropdown-content {
+    display: none;
+    position: absolute;  
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+    margin-top: 9px;
+    margin-left: 900px;
+    border: 3px solid black;
+ }
+ .dropdown-content a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block; 
+ }
+ .show {
+    display: block;
+ }
+
+ /* table stylings */
+ tr{
+   background-color:white;
+ }
+    th,
+    td {
+        border-radius: 7px;
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid black;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    th {
+        text-align: left;
+        font-size: 20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    tr:hover {background-color:palegoldenrod;}
+#table1{
+   margin-left: 1%;
+}
+#table2{
+   margin-left: 10%;
+}
+#table3{
+   margin-left: 1%;
+}
+.topnav {
+   background-color:black;
+   overflow:visible;
+   height: 100px;
+ }
+ .topnav a {
+   color: white;
+   text-align: center;
+   padding: 10px 10px;
+   margin-top: -60px;
+   margin-left: 90px;
+   text-decoration: none;
+   font-size: 30px;
+ }
+ .topnav a:hover {
+   background-color: whitesmoke;
+   color: black;
+ }
+.butt
+{
+   color: black;
+   background-color: white;
+   border: none;
+   padding: 10px 10px 10px 10px;
+   font-size: 17px;
+}
+.butt:hover {
+   background-color: #ddd;
+   color: rgb(167, 62, 62);
+ }
+#sub
+{
+   background-color: white;
+   border:none;
+}
+/* popup */
+.popup {
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.4);
+   display: none;
+}
+.popup-content {
+   background-color: white;
+   margin: 10% auto;
+   padding: 20px;
+   border: 1px solid #888888;
+   width: 30%;
+   font-weight: bolder;
+}
+.popup-content button {
+   display: block;
+   margin: 0 auto;
+}
+.show1 {
+   display: block;
+}
+.forma
+{
+   margin-left: 110px;
+   margin-top: 30px;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   height: 40px;
+   width: 490px;
+   border: 2px solid black;
+}
+#para2
+{
+   margin-left: 200px;
+   font-size: 30px;
+
+}
+#adminimage
+{
+   margin-left: 50px;
+}
+#page1head
+{
+   margin-left: 350px;
+}
+.card
+ {
+ 
+    margin-left: 480px;
+    display: inline;
+   
+ }
+
+ .card-text{
+font-size: 20px;
+ }
+ .sp
+ {
+   font-weight: bold;
+ }
+ .card-title
+ {
+   text-align: center;
+ }
+
+ .fle
+ {
+    border: 2px solid black;
+    height:350px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    width: 350px;
+
+
+ }
+ .selectbutton
+ {
+   width:400px;
+   height: 30px;
+   font-size: 18px;
+   border-radius: 8px;
+ }
+ #form2
+ {
+   width:400px;
+   height: 200px;
+ }
+ .ins1
+ {
+   height: 30px;
+   width: 200px;
+   border: 2px solid black;
+   margin-top: 20px;
+   margin-left:47px;
+   border-radius: 8px;
+ }
+ .ins2
+ {
+   height: 30px;
+   width: 200px;
+   border: 2px solid black;
+   margin-top: 20px;
+   margin-left:5px;
+   border-radius: 8px;
+ }
+ .ins3
+ {
+   height: 30px;
+   width: 200px;
+   border: 2px solid black;
+   margin-top: 20px;
+   margin-left:20px;
+   border-radius: 8px;
+ }
+ .para2
+ {
+   margin-left: 100px;
+ }
+ .ins
+ {
+   border: 2px solid black;
+   border-radius: 8px;
+   height: 40px;
+   width: 100px;
+
+ }
+ #form3
+ {
+   border: 2px solid black;
+   background-color: #ebebe0;
+   margin-top: -20px;
+   margin-left: 300px;
+   border-radius: 8px;
+   margin-right: 300px;
+ }
+ .formak
+ {
+ margin-left: 110px;
+ margin-top: 30px;
+ border-radius: 5px;
+ margin-bottom: 10px;
+ height: 40px;
+ width: 490px;
+background-color:black;
+color: white;
+ border: 2px solid black;
+ }
+ .alreadyassigned
+ {
+   font-size: 20px;
+   border-radius: 8px;
+ }
+
+#b
+{
+margin-top: 15px;
+ font-size: 40px;
+ margin-left: 1px;
+ color: white;
+ border:2px solid white;
+ width:50%;
+}

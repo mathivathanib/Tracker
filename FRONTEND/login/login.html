@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER LOGIN</title>
+    <link rel="stylesheet" href="./login.css">
+    <script src="./login.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <div id="a">
+            <p id="b">TASK TRACKER</p>
+        </div>
+    </div>
+    <div>
+        <span><img src="../images/loginpageimage.png" height="530px" width="730px"></span>
+        <span class="container">
+            <div class="row">
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-6 main">
+                    <form action="#">
+                        <h2>SIGN IN</h2>
+                        <img src="../images/loginprofile.png" class="imgclass" height="30px" width="30px">
+                        <input type="text" class="box" id="name" name="name" placeholder="Your Name" required />
+                        <br>
+                        <img src="../images/logpass.png" class="imgclass" height="30px" width="30px">
+                        <input type="password" class="box" id="password" name="password" placeholder="Your Password"
+                            required />
+                        <br>
+                        <input type="button" onclick=validation() id="submit" value="SUBMIT" />
+                    </form>
+                    <div class="log">
+                        <p>Not a registered user?<a href="/register/register.html">SIGN-UP</a></p>
+                    </div>
+                </div>
+            </div>
+        </span>
+    </div>
+</body>
+
+</html>

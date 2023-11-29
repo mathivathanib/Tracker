@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <script src="./admindisplay.js"></script>
+  <link rel="stylesheet" href="./admindisplay.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body bgcolor="#e6e6ff">
+  <div class="topnav">
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn" style="background-color: black;">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <button type="button" class="butt" onclick="mainPage()">Admin---Create Tasks</button>
+        <button type="button" class="butt" onclick="displayUsers()">Users---their tasks</button>
+        <button type="button" class="butt" onclick="displayTasks()">Add task to a user</button>
+        <button type="button" class="butt" onclick="separateTasks()">Modify task details</details></button>
+      </div>
+    </div>
+    <a href="../index.html">Logout</a>
+  </div><br><br>
+  <form id="form3">
+    <h2 id="para2">CREATE TASKS</h2>
+    <input type="text" id="tname1" class="forma" placeholder="Task Name"><br>
+    <input type="text" id="tdescription1" class="forma" placeholder="Task Description"><br>
+    <input type="text" id="tduration1" class="forma" placeholder="Duration"><br>
+    <select type="dropdown" name="tasks" class="forma" id="select2">
+      <option value="not completed">Task Status</option>
+      <option value="not completed">Not Completed</option>
+      <option value="in progress">In progress</option>
+      <option value="completed">Completed</option>
+    </select>
+    <br>
+    <button id="closePopup" class="formak" onclick="addTaskOnly()">ADD TASK</button>
+  </form>
+  <div class="tablealign">
+    <div id="sear" style="display: none;">
+      <form>
+        <input type="text" class="box1" id="name1" name="name" placeholder="Enter the name of the user" required />
+        <button id="search" type="button" onclick="searchDisplay2()"><img src="../images/searchpng.png" height="20px"
+            width="20px"></button>
+      </form>
+    </div><br>
+    <table style="width:100%" class="table" id="table1"></table>
+    <table style="width:100%" class="table" id="table2"> </table>
+    <div id="sear1" style="display: none;">
+      <form>
+        <input type="text" class="box1" id="name2" name="name" placeholder="Enter text to search" required />
+        <button id="search" type="button" onclick="search2()"><img src="../images/searchpng.png" height="20px"
+            width="20px"></button>
+      </form>
+    </div><br>
+    <table style="width:100%" class="table" id="table3"> </table>
+  </div>
+  <div id="myPopup" class="popup">
+    <div class="popup-content">
+      <p class="para2">UPDATE THE DETAILS HERE!!!</p>
+      <form id="form2">
+        <span>Task Name:</span>
+        <input type="text" class="ins1" id="tname" placeholder="Task Name"><br>
+        <span>Task Description:</span>
+        <input type="text" class="ins2" id="tdescription" placeholder="Task Description"><br>
+        <span>Task Duration:</span>
+        <input type="text" class="ins3" id="tduration" placeholder="Duration">
+      </form>
+      <button id="closePopup" class="ins" onclick="updateTask()">Update</button><br>
+      <button id="closePopup" class="ins" onclick="closePop()">Back</button><br>
+    </div>
+  </div>
+  <div id="div1" class="card"></div>
+</body>
+
+</html>
